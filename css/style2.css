@@ -1,0 +1,209 @@
+@charest "UTF-8";
+
+/*すべてのWebページに適用される*/
+html {
+		font-family: sans-serif;
+}
+html * {
+		box-sizing: border-box;
+}
+body {
+		background-color: #ffffee;
+		background-image: url();
+}
+.wrapper {
+		margin: 0 auto 0 auto;
+		max-width: 960px;
+}
+h2 {
+		color: #3f5170;
+		font-size: 22px;
+		border-bottom: 3px dotted #3f5170;
+}
+p {
+		line-height: 1.8;
+}
+a:link {
+		color: #d25833;
+		text-decoration: none
+}
+a:visited {
+		color: #d25833;
+}
+a:hover {
+		color: #e3937a;
+}
+a:active {
+		color: #ff6a3b;
+}
+img {
+		max-width: 100%;
+		height: auto;
+}
+
+/*すべてのページに適用 - ヘッダー - */
+.logo {
+		margin: 50px 0 40px 0;
+		line-height: 0;
+		text-align: center;
+}
+.nav li {
+		display: inline;
+		list-style-type: none;
+		padding-right: 30px;
+}
+.nav ul {
+		border: 3px solid #ccffff;
+}
+
+/* すべてのページに適用 - フッター - */
+.footer {
+		border-top: 3px dotted #3f5170;
+}
+
+/* landscape.html */
+.photo {
+		text-align: center;
+}
+}
+/* flower.html */
+.photo {
+		text-align: center;
+}
+}
+/* original.html */
+.photo {
+		text-align: center;
+}
+}
+/* index3.html */
+.top {
+		text-align: center;
+}
+/* request.html */
+form div {
+		padding:12px;
+		border-bottom: 1px dashed #bec2c7;
+}
+select {
+		width: 30em;
+}
+textarea {
+		width: 30em;
+		height: 6em;
+}
+input[type="submit"] {
+		margin: 20px 0;
+		width: 30em;
+}
+/* lecture.html*/
+.lecture-item {
+		display: flex;
+		padding: 0px 1px 0px 8px;
+}
+.lecture-photo {
+		margin-right: 16px;
+}
+.lecture-text {
+		padding: 1em;
+}
+
+/* syokyuu1.html*/
+.syokyuu1-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.syokyuu1-photo {
+		margin-right: 16px;
+}
+
+/* sns.html*/
+.sns-item {
+		display: flex;
+		padding: 20px 8px;
+}
+.sns-photo {
+		margin-right: 16px;
+}
+
+/* syokyuu2.html.html*/
+.syokyuu2-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.syokyuu2-photo {
+		margin-right: 16px;
+}
+
+/* syokyuu3.html.html*/
+.syokyuu3-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.syokyuu3-photo {
+		margin-right: 16px;
+}
+
+/* tyuukyuu1.html.html*/
+.tyuukyuu1-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.tyuukyuu1-photo {
+		margin-right: 16px;
+}
+
+/* tyuukyuu2.html.html*/
+.tyuukyuu2-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.tyuukyuu2-photo {
+		margin-right: 16px;
+}
+
+/* tyuukyuu3.html.html*/
+.tyuukyuu3-item {
+		display: flex;
+		border-bottom: 1px dashed #bec2c7;
+		padding: 20px 8px;
+}
+.tyuukyuu3-photo {
+		margin-right: 16px;
+}
+/* スマートフォン向けCSS */
+@media (max-width: 767px) {
+		/*全体 - ナビゲーション */
+		.wrapper {
+				margin: 0 8px;
+		}
+		.logo {
+				margin: 30px 0;
+		}
+		.logo img {
+				width: 200px;
+		}
+		.nav {
+				background-color: #dfddda;
+		}
+		.nav li {
+				display: block;
+		}
+
+		/* request.html - フォーム */
+		select {
+				width: 100%;
+		}
+		textarea {
+				width: 100%;
+		}
+		input[type="submit"] {
+				margin: 20px 0;
+				width: 100%;
+		}
+}
