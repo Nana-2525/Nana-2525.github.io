@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width. initial-scale=1">
-<title>Nana's photogallery</title>
+<title>Nana's photogallery ｜ Request</title>
 <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
@@ -23,15 +23,26 @@
 		</header>
 		<!--ヘッダーここまで-->
 		<!--メイン-->
-		<div class="top">
-				<img src="images/home-top1.jpg" alt="" width="960" height="650">
-		</div>
+
 		<main>
-				<h2>Introduction</h2>
-				<p class="introduction-item"><strong><i>Nana Henmi</i></strong><br></p>
-				<img src="images/me2.jpg" alt="" width="300" height="200">
-				<p class="introduction-item">千葉県出身の21歳女性。高校時代に、所属していた美術部で描く絵のテーマの写真を撮ることをきっかけに趣味となり、写真撮影(iPhone使用)を続けている。</p>
-				<p class="introduction-item">高校卒業後は、専門学校の神田外語学院の国際ビジネスキャリア科で英語とビジネスについて2年間学び、現在は神奈川大学に編入学し経営学部2年に在籍している。</p>
+				<h2>Request</h2>
+				<form method="GET" action="result2.html">
+						<div>
+								<label for="kind">ご依頼種類</label><br>
+								<select id="kind" name="kind">
+										<option value="request">撮影依頼</option>
+										<option value="use">写真の使用依頼</option>
+										<option value="other">その他の依頼</option>
+								</select>
+						</div>
+						<div>
+								<label>ご依頼の具体的な内容<br>
+								<textarea name="message"></textarea></label>
+						</div>
+						<div>
+								<input type="submit" name="submit" value="送信">
+						</div>
+				</form>
 		</main>
 		<!--メインここまで-->
 		<!--フッター-->
