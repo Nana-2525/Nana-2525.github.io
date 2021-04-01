@@ -1,16 +1,11 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width. initial-scale=1">
-<title>Nana's photogallery</title>
-<link rel="stylesheet" href="css/style2.css">
-</head>
+{% include head.html %}
 <body>
 <div class="wrapper">
 		<!--ヘッダー-->
 		<header class="header">
-				<h1 class="logo"><a href="index3.html"><img src="images/logo_all.png" alt="Nana's photogallery" width="500" height="79"</a></h1>
+				<h1 class="logo"><a href="index3.html"><img src="images/logo_p.png" alt="Nana's photogallery" width="500" height="79"</a></h1>
 				<nav class="nav">
 						<ul>
 								<li><a href="index3.html">Home</a></li>
@@ -34,11 +29,7 @@
 				<p class="introduction-item">高校卒業後は、専門学校の神田外語学院の国際ビジネスキャリア科で英語とビジネスについて2年間学び、現在は神奈川大学に編入学し経営学部2年に在籍している。</p>
 		</main>
 		<!--メインここまで-->
-		<!--フッター-->
-		<footer class="footer">
-				<p>&copy:Copyright Nana's photogallery. All rights reserved</p>
-		</footer>
-		<!--フッターここまで-->
+		{% include footer.html %}
 </div>
 </body>
 </html>
